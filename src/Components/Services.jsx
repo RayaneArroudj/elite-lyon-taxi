@@ -1,8 +1,12 @@
 const Services = () => {
   return (
-    <div className="h-96" id="services">
-      <h2>Nos services</h2>
-    </div>
+    <ul className="lg:flex lg:flex-row lg:justify-center lg:gap-10 w-full bg-red-800 ">
+      <li className="w-3/12 bg-slate-700 text-center">Transport Privé</li>
+      <li className="w-3/12 bg-slate-700 text-center">
+        Transport proféssionnel
+      </li>
+      <li className="w-3/12 bg-slate-700 text-center">Transport Médical</li>
+    </ul>
   );
 };
 

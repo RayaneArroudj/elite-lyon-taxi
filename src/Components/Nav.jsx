@@ -7,9 +7,17 @@ const Nav = () => {
   const [click, setClick] = useState(false);
   const handleClick = () => {
     setClick(!click);
+    if (!click) {
+      document.body.classList.add("overflow-hidden");
+    } else {
+      document.body.classList.remove("overflow-hidden");
+    }
   };
 
-  const closeMenu = () => setClick(false);
+  const closeMenu = () => {
+    setClick(false);
+    document.body.classList.remove("overflow-hidden");
+  };
 
   const content = (
     <>

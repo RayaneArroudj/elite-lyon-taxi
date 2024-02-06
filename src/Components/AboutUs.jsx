@@ -7,20 +7,18 @@ const AboutUs = () => {
       style={{ backgroundImage: `url(${lyon4})` }}
     >
       <div className="absolute inset-0 bg-black opacity-50"></div>
-      <div className="absolute inset-0 flex items-center  text-white">
-        <div className="mb-72 flex flex-col items-center ">
+      <div className="absolute inset-0 flex   text-white">
+        <div className="flex flex-col items-center mt-20  ">
           <h1 className="text-4xl font-bold mb-4">Elite Lyon Taxi</h1>
           <p className="text-lg w-1/2 text-center">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea qui
-            expedita cum quis! Molestiae dolores vero exercitationem odit
-            voluptatibus totam illum quae enim corrupti maiores voluptatem nemo
-            tempora, magnam laborum. Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Ea qui expedita cum quis! Molestiae dolores vero
-            exercitationem odit voluptatibus totam illum quae enim corrupti
-            maiores voluptatem nemo tempora, magnam laborum. Lorem ipsum dolor
-            sit amet consectetur adipisicing elit. Ea qui expedita cum quis!
-            Molestiae dolores vero exercitationem odit voluptatibus totam illum
-            quae enim corrupti maiores voluptatem nemo tempora, magnam laborum.
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Voluptatibus distinctio id, voluptates commodi temporibus dicta
+            recusandae praesentium magni repudiandae dolorem debitis, eius,
+            sapiente ipsa nulla nisi? Quae nisi corporis repudiandae. Lorem
+            ipsum dolor sit amet consectetur adipisicing elit. Repudiandae vero
+            minus amet harum quod enim pariatur itaque minima natus praesentium
+            saepe, voluptatibus blanditiis similique ducimus ipsa alias
+            reprehenderit. Laboriosam, praesentium!
           </p>
         </div>
       </div>
