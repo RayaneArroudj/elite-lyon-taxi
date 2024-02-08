@@ -1,10 +1,10 @@
-import lyon4 from "../assets/lyon4.jpg";
+import lyon6 from "../assets/lyon4.jpg";
 
 const AboutUs = () => {
   return (
     <div
       className="w-full min-h-screen  bg-cover bg-center relative"
-      style={{ backgroundImage: `url(${lyon4})` }}
+      style={{ backgroundImage: `url(${lyon6})` }}
     >
       <div className="absolute inset-0 bg-black opacity-50"></div>
       <div className="absolute inset-0 flex   text-white">
