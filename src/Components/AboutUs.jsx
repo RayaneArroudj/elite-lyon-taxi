@@ -3,8 +3,13 @@ import lyon6 from "../assets/lyon4.jpg";
 const AboutUs = () => {
   return (
     <div
-      className="w-full min-h-screen  bg-cover bg-center relative"
-      style={{ backgroundImage: `url(${lyon6})` }}
+      className="w-full min-h-screen bg-cover bg-center relative"
+      style={{
+        backgroundImage: `url(${lyon6})`,
+        backgroundSize: "cover", // Vous pouvez ajuster cette valeur pour redimensionner l'image
+        backgroundRepeat: "no-repeat", // Assurez-vous que l'image de fond ne se répète pas
+        height: "100px",
+      }}
     >
       <div className="absolute inset-0 bg-black opacity-50"></div>
       <div className="absolute inset-0 flex   text-white">
